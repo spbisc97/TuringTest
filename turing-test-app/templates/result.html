@@ -1,19 +1,23 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="result-container">
-    <h2>{{ question.question }}</h2>
-    <p>Your choice: <strong>{{ user_choice }}</strong></p>
-    <p>Correct answer: <strong>{{ correct }}</strong></p>
-    {% if user_choice == correct %}
-        <p class="correct">You were correct!</p>
-    {% else %}
-        <p class="incorrect">You were incorrect.</p>
-    {% endif %}
-    <div class="response-box">
-        <p><strong>Friend's answer:</strong> {{ question.friend }}</p>
-        <p><strong>LLM's answer:</strong> {{ question.llm }}</p>
+<div class="card mt-5">
+    <div class="card-body">
+        <h2 class="card-title">{{ question.question }}</h2>
+        <p>Your choice: <strong>{{ user_choice }}</strong></p>
+        <p>Correct answer: <strong>{{ correct }}</strong></p>
+        {% if user_choice == correct %}
+            <p class="text-success">You were correct!</p>
+        {% else %}
+            <p class="text-danger">You were incorrect.</p>
+        {% endif %}
+        <div class="card mt-3">
+            <div class="card-body">
+                <p><strong>Friend's answer:</strong> {{ question.friend }}</p>
+                <p><strong>LLM's answer:</strong> {{ question.llm }}</p>
+            </div>
+        </div>
+        <a class="btn btn-primary mt-3" href="{{ url_for('index') }}">Back to questions</a>
     </div>
-    <a class="button" href="{{ url_for('index') }}">Back to questions</a>
 </div>
 {% endblock %}
