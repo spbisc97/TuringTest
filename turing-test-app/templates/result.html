@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="result-container">
+    <h2>{{ question.question }}</h2>
+    <p>Your choice: <strong>{{ user_choice }}</strong></p>
+    <p>Correct answer: <strong>{{ correct }}</strong></p>
+    {% if user_choice == correct %}
+        <p class="correct">You were correct!</p>
+    {% else %}
+        <p class="incorrect">You were incorrect.</p>
+    {% endif %}
+    <p>Friend's answer: {{ question.friend }}</p>
+    <p>LLM's answer: {{ question.llm }}</p>
+    <a class="button" href="{{ url_for('index') }}">Back to questions</a>
+</div>
+{% endblock %}

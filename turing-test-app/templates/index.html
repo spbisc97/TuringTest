@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="grid-container">
+    {% for question in questions %}
+        <div class="grid-item">
+            <a href="{{ url_for('question', question_id=question.id) }}">Question {{ question.id }}</a>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
