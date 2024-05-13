@@ -52,7 +52,7 @@ h2 {
     font-weight: bold;
 }
 
-.question-container, .result-container {
+.question-container, .result-container, .compare-container {
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -68,6 +68,20 @@ h2 {
     padding: 15px;
     margin: 20px 0;
     background-color: #f9f9f9;
+}
+
+.response-boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.response-box p {
+    margin: 0;
+}
+
+.response-box.chosen {
+    background-color: #d4edda;
 }
 
 label {

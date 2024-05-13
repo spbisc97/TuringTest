@@ -4,14 +4,20 @@
 <div class="question-container">
     <h2>{{ question.question }}</h2>
     <div class="response-box">
-        <p id="response">{{ response }}</p>
+        <p id="response">
+            {% if response_type == "friend" %}
+                {{ question.friend }}
+            {% else %}
+                {{ question.llm }}
+            {% endif %}
+        </p>
     </div>
     <form id="choice-form" method="post">
         <label>
-            <input type="radio" name="choice" value="friend"> Human
+            <input type="radio" name="choice" value="friend" required> Human
         </label>
         <label>
-            <input type="radio" name="choice" value="llm"> LLM
+            <input type="radio" name="choice" value="llm" required> LLM
         </label>
         <input type="hidden" name="correct" value="{{ response_type }}">
         <button type="submit">Submit</button>

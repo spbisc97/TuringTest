@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="compare-container">
+    <h2>{{ question.question }}</h2>
+    <div class="response-boxes">
+        <div class="response-box chosen">
+            <p>{% if user_choice == "llm" %}
+                {{ question.llm }}
+            {% else %}
+                {{ question.friend }}
+            {% endif %}</p>
+        </div>
+        <div class="response-box">
+            <p>{% if user_choice == "llm" %}
+                {{ question.friend }}
+            {% else %}
+                {{ question.llm }}
+            {% endif %}</p>
+        </div>
+    </div>
+    <form method="post" action="{{ url_for('compare', question_id=question.id) }}">
+        <input type="hidden" name="chosen" value="{{ user_choice }}">
+        <button type="submit">Go On</button>
+    </form>
+</div>
+{% endblock %}

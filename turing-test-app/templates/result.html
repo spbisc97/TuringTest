@@ -10,8 +10,10 @@
     {% else %}
         <p class="incorrect">You were incorrect.</p>
     {% endif %}
-    <p>Friend's answer: {{ question.friend }}</p>
-    <p>LLM's answer: {{ question.llm }}</p>
+    <div class="response-box">
+        <p><strong>Friend's answer:</strong> {{ question.friend }}</p>
+        <p><strong>LLM's answer:</strong> {{ question.llm }}</p>
+    </div>
     <a class="button" href="{{ url_for('index') }}">Back to questions</a>
 </div>
 {% endblock %}
