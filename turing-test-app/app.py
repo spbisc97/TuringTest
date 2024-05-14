@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 import random
 from questions import questions
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates', static_folder='static')
 
 @app.route('/')
 def index():
@@ -28,10 +28,9 @@ def compare(question_id):
     if question is None:
         return redirect(url_for('index'))
     
-    user_choice = request.form.get('choice')
-    chosen_response = request.form.get('chosen_response')
-    correct = "friend" if question["friend"] == chosen_response else "llm"
-    return render_template('result.html', question=question, user_choice=user_choice, correct=correct, chosen_response=chosen_response, title="Result")
+    user_choice = request.form.get('user_choice')
+    correct = request.form['correct']
+    return render_template('result.html', question=question, user_choice=user_choice, correct=correct, title="Result")
 
 if __name__ == '__main__':
     app.run(debug=True)

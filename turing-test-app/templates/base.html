@@ -1,22 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="brAIns Turing Test - Can you distinguish between human and AI responses?">
+    <meta name="author" content="Your Name">
+
     <title>{{ title }}</title>
+    
+    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}" type="image/x-icon">
+
+    <!-- jQuery and Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
     <script src="{{ url_for('static', filename='script.js') }}"></script>
 </head>
 <body>
     <header class="navbar navbar-dark bg-success">
-        <h1 class="navbar-brand">
-            <i class="fas fa-brain"></i> brAIns Turing Test
-        </h1>
-        <a class="navbar-brand" href="/">Home</a>
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="{{ url_for('static', filename='icon.png') }}" width="30" height="auto" class="d-inline-block align-top" alt="Icon"> brAIns Turing Test
+            </a>
+            <a class="navbar-brand" href="/">Home</a>
+        </div>
     </header>
-    <main class="container">
+    <main class="container my-5">
         {% block content %}{% endblock %}
     </main>
     <footer class="fixed-bottom bg-success text-white text-center py-3">
