@@ -4,8 +4,8 @@
 <div class="card mt-5">
     <div class="card-body">
         <h2 class="card-title">{{ question.question }}</h2>
-        <p>Your choice: <strong>{{ user_choice }}</strong></p>
-        <p>Correct answer: <strong>{{ correct }}</strong></p>
+        <p>Your choice: <strong>{{ "LLM" if user_choice == 'llm' else "Human" }}</strong></p>
+        <p>Correct answer: <strong>{{ "LLM" if correct == 'llm' else "Human" }}</strong></p>
         {% if user_choice == correct %}
             <p class="text-success">You were correct!</p>
         {% else %}
