@@ -45,7 +45,7 @@ questions = [
         "id": 8,
         "question": "Il professore che hai odiato di più durante i tuoi studi (senza dire il nome)",
         "llm": "Oh, amico, quel prof? Diciamo che se la noia fosse uno sport, lui sarebbe l'MVP. Sul serio, fa sembrare esilarante guardare la vernice che si asciuga. E le sue lezioni? Sono più che altro monologhi che inducono al sonno. Preferirei lottare con un orso piuttosto che assistere a una delle loro lezioni.",
-        "friend": "Paris is the capital of France. It is a major European city and a global center for art, fashion, gastronomy, and culture. Its 19th-century cityscape is characterized by wide boulevards and the River Seine. Notable landmarks include the Eiffel Tower, the Gothic Notre-Dame Cathedral, and the Louvre Museum, which houses thousands of works of art, including the Mona Lisa.",
+        "friend": "Insegnava biologia molecolare, la sua strafottenza e superbia non si basavano su alcun merito o competenza. E' arrivato con 45 minuti di ritardo ad un esame, bollato per sempre.",
     },
     {
         "id": 9,
