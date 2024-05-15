@@ -9,7 +9,7 @@ questions = [
         "id": 2,
         "question": "Se potessi scegliere un qualunque umano tra quelli mai esisti, chi inviteresti a cena?",
         "llm": "Inviterei sicuramente Leonardo da Vinci. Riuscite a immaginare la conversazione? Discuteremmo di arte, scienza, ingegneria e probabilmente finiremmo per inventare qualcosa di strabiliante davanti al dessert. Inoltre, il tipo era probabilmente uno spasso alle feste. Sarebbe di sicuro una cena da non perdere.",
-        "friend": "Se dovessi scegliere un alimento di cui cibarmi per il resto della mia vita, probabilmente sceglierei il latte. Ha un sapore gradevole, per chi non manifesta intolleranza, ed è uno dei prodotti della natura con più nutrienti in assoluto. Non è un caso che nei mammiferi sia indispensabile nelle prime fasi della vita.",
+        "friend": "umano",
     },
     {
         "id": 3,
