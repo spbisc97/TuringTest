@@ -1,33 +1,56 @@
 questions = [
-    {"id": 1, "question": "What is the capital of France?", 
-     "friend": "The capital of France is Paris. Paris is known for its art, fashion, gastronomy, and culture. The 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Paris is home to many iconic landmarks such as the Eiffel Tower, Notre-Dame Cathedral, and the Louvre Museum.",
-     "llm": "Paris is the capital of France. It is a major European city and a global center for art, fashion, gastronomy, and culture. Its 19th-century cityscape is characterized by wide boulevards and the River Seine. Notable landmarks include the Eiffel Tower, the Gothic Notre-Dame Cathedral, and the Louvre Museum, which houses thousands of works of art, including the Mona Lisa."},
-    
-    {"id": 2, "question": "What is 2 + 2?", 
-     "friend": "2 + 2 equals 4. This is a basic arithmetic operation that we learn in early mathematics. Addition is one of the four fundamental arithmetic operations, and it's essential for all subsequent mathematics learning.",
-     "llm": "The sum of 2 + 2 is 4. This is one of the simplest and most fundamental arithmetic operations. Addition is a basic mathematical operation that combines two numbers to get a total. Understanding addition is crucial for learning more complex mathematical concepts."},
-    
-    {"id": 3, "question": "Who painted the Mona Lisa?", 
-     "friend": "The Mona Lisa was painted by Leonardo da Vinci, an Italian Renaissance artist. The painting is one of the most famous and recognizable works of art in the world. It is renowned for its intricate detail, the subject's enigmatic expression, and Leonardo's innovative use of sfumato technique.",
-     "llm": "Leonardo da Vinci, the Italian Renaissance polymath, painted the Mona Lisa. This masterpiece is famous for the subject's mysterious smile and Leonardo's mastery of the sfumato technique, which creates a soft transition between colors and tones. The painting is housed in the Louvre Museum in Paris and attracts millions of visitors each year."},
-    
-    {"id": 4, "question": "What is the largest planet in our solar system?", 
-     "friend": "The largest planet in our solar system is Jupiter. It is a gas giant with a mass one-thousandth that of the Sun but two-and-a-half times that of all the other planets in the Solar System combined. Jupiter is known for its Great Red Spot, a giant storm that has been raging for centuries.",
-     "llm": "Jupiter is the largest planet in our solar system. It is a massive gas giant with a diameter of about 142,984 kilometers. Jupiter's most notable feature is the Great Red Spot, a massive storm that is larger than Earth and has existed for at least 400 years. The planet has a strong magnetic field and dozens of moons, including the four large Galilean moons: Io, Europa, Ganymede, and Callisto."},
-    
-    {"id": 5, "question": "What is the capital of Australia?", 
-     "friend": "The capital of Australia is Canberra. Located in the southeastern part of the country, it is an entirely planned city designed by architect Walter Burley Griffin. Canberra is the political center of Australia, housing important institutions such as the Parliament House, the High Court, and numerous government departments.",
-     "llm": "Canberra is the capital city of Australia. It is located in the Australian Capital Territory and was selected as the capital in 1908 as a compromise between Sydney and Melbourne. Canberra is known for its planned layout, designed by architects Walter Burley Griffin and Marion Mahony Griffin. The city is the political heart of Australia, home to the federal government, the Australian Parliament House, and the High Court of Australia."},
-    
-    {"id": 6, "question": "Who wrote the novel 'Pride and Prejudice'?", 
-     "friend": "The novel 'Pride and Prejudice' was written by Jane Austen. First published in 1813, it is a romantic novel that critiques the British landed gentry at the end of the 18th century. The story revolves around the character of Elizabeth Bennet and her dealings with issues of manners, upbringing, morality, and marriage in the society of the landed gentry of early 19th-century England.",
-     "llm": "'Pride and Prejudice' is a novel by Jane Austen, published in 1813. It is one of the most beloved works of English literature, known for its witty commentary on the British class system and the role of women. The novel follows Elizabeth Bennet as she navigates issues of manners, upbringing, morality, education, and marriage among the British gentry of the early 19th century. The story's humor and keen observations have made it a classic."},
-    
-    {"id": 7, "question": "What is the chemical symbol for gold?", 
-     "friend": "The chemical symbol for gold is Au. This symbol comes from the Latin word for gold, 'aurum'. Gold is a precious metal known for its yellow color and high value. It is used in jewelry, electronics, and as a monetary standard in various forms throughout history.",
-     "llm": "Gold has the chemical symbol Au, which is derived from the Latin word 'aurum', meaning 'shining dawn'. Gold is a highly valued precious metal known for its bright yellow luster and resistance to tarnish. It has been used for coinage, jewelry, and various industrial applications due to its excellent conductivity and malleability."},
-    
-    {"id": 8, "question": "Who is the current CEO of Tesla?", 
-     "friend": "The current CEO of Tesla is Elon Musk. He co-founded the company and has been instrumental in its growth and success. Under his leadership, Tesla has become a leader in electric vehicles, renewable energy solutions, and autonomous driving technology.",
-     "llm": "Elon Musk is the current CEO of Tesla. He is one of the co-founders of the company and has played a crucial role in its development and innovation. Under his leadership, Tesla has revolutionized the automotive industry with its electric vehicles and has expanded into energy storage and solar energy products. Musk is also known for his work with SpaceX, Neuralink, and The Boring Company."}
+    {
+        "id": 1,
+        "question": "Il professore che hai odiato di più durante i tuoi studi (senza dire il nome)",
+        "llm": "Oh, amico, quel prof? Diciamo che se la noia fosse uno sport, lui sarebbe l'MVP. Sul serio, fa sembrare esilarante guardare la vernice che si asciuga. E le sue lezioni? Sono più che altro monologhi che inducono al sonno. Preferirei lottare con un orso piuttosto che assistere a una delle loro lezioni.",
+        "friend": "Paris is the capital of France. It is a major European city and a global center for art, fashion, gastronomy, and culture. Its 19th-century cityscape is characterized by wide boulevards and the River Seine. Notable landmarks include the Eiffel Tower, the Gothic Notre-Dame Cathedral, and the Louvre Museum, which houses thousands of works of art, including the Mona Lisa.",
+    },
+    {
+        "id": 2,
+        "question": "Se potessi scegliere un qualunque umano tra quelli mai esisti, chi inviteresti a cena?",
+        "llm": "Inviterei sicuramente Leonardo da Vinci. Riuscite a immaginare la conversazione? Discuteremmo di arte, scienza, ingegneria e probabilmente finiremmo per inventare qualcosa di strabiliante davanti al dessert. Inoltre, il tipo era probabilmente uno spasso alle feste. Sarebbe di sicuro una cena da non perdere.",
+        "friend": "Se dovessi scegliere un alimento di cui cibarmi per il resto della mia vita, probabilmente sceglierei il latte. Ha un sapore gradevole, per chi non manifesta intolleranza, ed è uno dei prodotti della natura con più nutrienti in assoluto. Non è un caso che nei mammiferi sia indispensabile nelle prime fasi della vita.",
+    },
+    {
+        "id": 3,
+        "question": "Descrivi la tua routine mattutina",
+        "llm": "Svegliati, rimanda la sveglia. Svegliati di nuovo, pentiti di aver rimandato la sveglia. Controlla il telefono, scorri tra i meme per troppo tempo. Realizza che sei in ritardo, corri per prepararti. Bevi il caffè come se fosse la tua ancora di salvezza. Contempla l'esistenza mentre ti lavi i denti. Alla fine, affronta la giornata con riluttanza. Ripeti tutto da capo, letteralmente.",
+        "friend": "Di solito non mi alzo subito ma resto un po’ a letto, non sono una persona mattiniera. Se riesco vado a correre, poi mi lavo, mi vesto/mi trucco e faccio colazione. A quel punto se è un giorno in cui c’è lezione vado all’università, altrimenti mi metto a studiare a casa",
+    },
+    {
+        "id": 4,
+        "question": "Se potessi mangiare una sola cosa per il resto della tua vita, cosa sarebbe?",
+        "llm": "Pizza, senza dubbio. È praticamente un cheat code universale per il cibo. Gli infiniti toppings significano che posso cambiarla ogni volta che voglio: pizza per la colazione, pizza vegetariana, pizza dessert. Mai noiosa, sempre deliziosa. Ma poi, chi si stanca mai della pizza?",
+        "friend": "Jupiter is the largest planet in our solar system. It is a massive gas giant with a diameter of about 142,984 kilometers. Jupiter's most notable feature is the Great Red Spot, a massive storm that is larger than Earth and has existed for at least 400 years. The planet has a strong magnetic field and dozens of moons, including the four large Galilean moons: Io, Europa, Ganymede, and Callisto.",
+    },
+    {
+        "id": 5,
+        "question": "Perchè i tombini sono tondi?",
+        "llm": "Perché i tombini rotondi non vi giudicano per la vostra routine mattutina. Inoltre, non cadono nel loro stesso buco, il che li rende meno pericolosi.In più, sono perfetti portali per le tartarughe ninja. Sicurezza e stile, tutto in una forma.",
+        "friend": "I tombini sono tondi per facilitarne il trasporto. Infatti, siccome pesano molto, il modo migliore per trasportarli per brevi distanze è farli rotolare sul fianco",
+    },
+    {
+        "id": 6,
+        "question": "Chi preferisci tra mamma e papà? Scegline uno!",
+        "llm": "Ah, l'eterno dilemma. Beh, io sceglierei... Google. Perché quando si è in dubbio, basta chiedere ai signori dei motori di ricerca.",
+        "friend": "Personalmente non credo che si possano fare delle distinzioni: a volte mia madre si presenta insopportabile ed irrazionale, ma rimane sempre una persona amorevole. Stesso vale per mio padre, più placido di animo ma a volte troppo approssimativo",
+    },
+    {
+        "id": 7,
+        "question": "Sei nella giungla, preferiresti incontrare uno sconosciuto sospetto o un orso?",
+        "llm": "Bro, sceglierei l'orso ogni santo giorno. Almeno potrei ricavarne una bella storia da pubblicare su Instagram, no? Inoltre, ho visto abbastanza film da sapere come fingermi morto se le cose si fanno difficili. Ma uno sconosciuto sospetto nella giungla? No, quello è un livello completamente diverso di stranezza. Rimarrò con Yogi e spero che sia in vena di picnic.",
+        "friend": "Un orso perché mi piacciono e sono i miei animali preferiti, nonché animale guida.",
+    },
+    {
+        "id": 8,
+        "question": "Perchè Gerry Scotti dovrebbe essere primo ministro?",
+        "llm": "Perché sa come condurre un gioco a premi e, diciamocelo, governare un Paese è un gioco più grande con una posta in gioco più alta. \nInoltre, chi non vorrebbe che il proprio leader fosse divertente come un personaggio televisivo?",
+        "friend": "Perché è un uomo di cultura che sa interagire con il pubblico ed è ben voluto dalla popolazione. Inoltre avendo preso parte a diversi show televisivi riesce a gestire situazioni improvvise molto bene.",
+    },
+    {
+        "id": 9,
+        "question": "Una buona ragione che gli alieni potrebbero avere per invaderci",
+        "llm": "Per rubare tutti i nostri avocado e fondare un cartello cosmico del guacamole.",
+        "friend": "Penso per una ragione simile a quella per cui uno stato ne invade un altro: poterne sfruttare le risorse oppure poterlo occupare per colonizzarlo. Un esempio potrebbe essere una popolazione aliena il cui mondo è stato distrutto  alla ricerca di una nuova casa.",
+    },
 ]
