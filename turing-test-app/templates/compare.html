@@ -7,14 +7,14 @@
                 <div class="col d-flex">
                     <div class="card flex-grow-1 border-success">
                         <div class="card-body">
-                            <p>{% if user_choice == "llm" %} {{ question.llm }} {% else %} {{ question.friend }} {% endif %}</p>
+                            <p>{% if correct == "llm" %} {{ question.llm }} {% else %} {{ question.friend }} {% endif %}</p>
                         </div>
                     </div>
                 </div>
                 <div class="col d-flex">
                     <div class="card flex-grow-1">
                         <div class="card-body">
-                            <p>{% if user_choice == "llm" %} {{ question.friend }} {% else %} {{ question.llm }} {% endif %}</p>
+                            <p>{% if correct == "llm" %} {{ question.friend }} {% else %} {{ question.llm }} {% endif %}</p>
                         </div>
                     </div>
                 </div>
