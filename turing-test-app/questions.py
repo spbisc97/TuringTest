@@ -21,7 +21,7 @@ questions = [
         "id": 4,
         "question": "Se potessi mangiare una sola cosa per il resto della tua vita, cosa sarebbe?",
         "llm": "Pizza, senza dubbio. È praticamente un cheat code universale per il cibo. Gli infiniti toppings significano che posso cambiarla ogni volta che voglio: pizza per la colazione, pizza vegetariana, pizza dessert. Mai noiosa, sempre deliziosa. Ma poi, chi si stanca mai della pizza?",
-        "friend": "Jupiter is the largest planet in our solar system. It is a massive gas giant with a diameter of about 142,984 kilometers. Jupiter's most notable feature is the Great Red Spot, a massive storm that is larger than Earth and has existed for at least 400 years. The planet has a strong magnetic field and dozens of moons, including the four large Galilean moons: Io, Europa, Ganymede, and Callisto.",
+        "friend": "Se dovessi scegliere un alimento di cui cibarmi per il resto della mia vita, probabilmente sceglierei il latte. Ha un sapore gradevole, per chi non manifesta intolleranza, ed è uno dei prodotti della natura con più nutrienti in assoluto. Non è un caso che nei mammiferi sia indispensabile nelle prime fasi della vita.",
     },
     {
         "id": 5,
