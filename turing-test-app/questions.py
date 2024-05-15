@@ -9,7 +9,7 @@ questions = [
         "id": 2,
         "question": "Se potessi scegliere un qualunque umano tra quelli mai esisti, chi inviteresti a cena?",
         "llm": "Inviterei sicuramente Leonardo da Vinci. Riuscite a immaginare la conversazione? Discuteremmo di arte, scienza, ingegneria e probabilmente finiremmo per inventare qualcosa di strabiliante davanti al dessert. Inoltre, il tipo era probabilmente uno spasso alle feste. Sarebbe di sicuro una cena da non perdere.",
-        "friend": "umano",
+        "friend": "Se potessi scegliere un qualunque umano tra quelli mai esistiti da invitare a cena sceglierei Rosa Parks, attivista statunitense simbolo del movimento per i diritti civili famosa per aver rifiutato nel 1955 di cedere il posto su un autobus ad un bianco, danco così origine alla sua lotta per la discriminazione razziale. Dopo un anno di proteste, nel 1956 la legge, che imponeva ai neri di lasciare i posti a sedere sugli autobus ai bianchi, fu abolita. Credo che sarebbe molto interessante avere una conversazione con una donna di tale coraggio.",
     },
     {
         "id": 3,
